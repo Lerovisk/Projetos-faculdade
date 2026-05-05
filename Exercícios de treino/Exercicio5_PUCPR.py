@@ -1,0 +1,24 @@
+"""Crie um programa que solicite ao usuário dois números e a operação que deseja executar entre eles.
+ Mostre o resultado dessa operação no formato: num1 op num2 = resultado."""
+
+num1 = float(input("Digite o primeiro valor: "))
+num2 = float(input("Digite o segundo valor: "))
+op = input("Qual operacao deseja realizar (+ - * /)? ")
+result = 0
+
+
+if op == "+":
+    result = num1 + num2
+elif op == "-":
+    result = num1 - num2
+elif op == "*":
+    result = num1 * num2
+elif op == "/":
+    result = num1 / num2
+
+else:
+    op = "Erro"
+if op == "Erro":
+    print("Operação inválida!")
+else:
+    print(num1, op, num2, "=", result)

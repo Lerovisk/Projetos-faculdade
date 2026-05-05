@@ -1,0 +1,10 @@
+{
+    "nome": "João",
+    "idade": 25,
+    "cidade": "Curitiba",
+    "frutas_favoritas": [
+        "maçã",
+        "banana",
+        "laranja"
+    ]
+}
